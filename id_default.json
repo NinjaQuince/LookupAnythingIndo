@@ -1,0 +1,678 @@
+{
+    /*********
+    ** Generic translations
+    *********/
+    // date names
+    "generic.now": "sekarang",
+    "generic.tomorrow": "besok",
+    "generic.yesterday": "kemarin",
+
+    // generic values
+    "generic.unknown": "tidak diketahui",
+
+    // generic field values
+    "generic.percent": "{{percent}}%",
+    "generic.percent-chance-of": "{{percent}}% peluang untuk {{label}}",
+    "generic.percent-ratio": "{{percent}}% ({{value}} dari {{max}})",
+    "generic.ratio": "{{value}} dari {{max}}",
+    "generic.range": "{{min}} sampai {{max}}",
+    "generic.yes": "iya",
+    "generic.no": "tidak",
+    "generic.seconds": "{{count}} detik",
+    "generic.minutes": "{{count}} menit",
+    "generic.hours": "{{count}} jam",
+    "generic.days": "{{count}} hari",
+    "generic.in-x-days": "dalam {{count}} hari",
+    "generic.x-days-ago": "{{count}} hari yang lalu",
+    "generic.price": "{{price}}g",
+    "generic.price-for-quality": "{{price}}g ({{quality}})",
+    "generic.price-for-stack": "{{price}}g untuk setumpuk {{count}}",
+
+    // types
+    "type.building": "Bangunan",
+    "type.bush": "Semak",
+    "type.fruit-tree": "Pohon Buah",
+    "type.map-tile": "Tile peta",
+    "type.monster": "Monster",
+    "type.player": "Pemain",
+    "type.tree": "Pohon",
+    "type.villager": "Warga",
+    "type.other": "Lain-lain", // default type
+
+    // item qualities
+    "quality.normal": "normal",
+    "quality.silver": "perak",
+    "quality.gold": "emas",
+    "quality.iridium": "iridium",
+
+    // NPC friendship
+    "friendship-status.friendly": "Berteman",
+    "friendship-status.dating": "Pacaran",
+    "friendship-status.engaged": "Tunangan",
+    "friendship-status.married": "Menikah",
+    "friendship-status.divorced": "Cerai",
+    "friendship-status.kicked-out": "Diusir",
+
+
+    /*********
+    ** Data translations
+    *********/
+    // Community Center bundle areas
+    "bundle-area.pantry": "Pantri",
+    "bundle-area.crafts-room": "Ruang Kerajinan",
+    "bundle-area.fish-tank": "Akuarium",
+    "bundle-area.boiler-room": "Ruang Pembakaran",
+    "bundle-area.vault": "Brankas",
+    "bundle-area.bulletin-board": "Mading",
+    "bundle-area.abandoned-joja-mart": "Bekas Joja Mart",
+
+    // shop names
+    "shop.adventure-guild": "Adventure Guild",
+    "shop.clint": "Clint",
+    "shop.marnie": "Marnie",
+    "shop.pierre": "Pierre",
+    "shop.robin": "Robin",
+    "shop.volcano": "toko gunung berapi",
+    "shop.willy": "Willy",
+
+    // recipe types
+    "recipe-type.cooking": "Memasak",
+    "recipe-type.crafting": "Merakit",
+    "recipe-type.tailoring": "Menjahit",
+
+    // NPC descriptions
+    "data.npc.pet.description": "Peliharaan setiamu.",
+    "data.npc.horse.description": "Tunggangan setiamu.",
+    "data.npc.junimo.description": "Arwah penjaga hutan dari alam lain. Baru sedikit yang diketahui dari mereka.",
+    "data.npc.trash-bear.description": "Arwah ramah yang membersihkan sampah.",
+
+    // item types
+    "data.type.debris": "Puing-puing",
+    "data.type.stone": "Batu",
+    "data.type.container": "Kontainer",
+
+    // farm items
+    "data.item.egg-incubator.description": "Menetaskan telur jadi bayi ayam dan bebek.",
+    "data.item.broken-branch.name": "Broken Branch",
+    "data.item.broken-branch.description": "Cabang yang patah. Tebang dengan kapak untuk dapat kayu.",
+    "data.item.stone.name": "Stone",
+    "data.item.stone.description": "Batu biasa. Pexahkan untuk dapat Batu.",
+    "data.item.geode.name": "Geode Node",
+    "data.item.geode.description": "Pecahkan untuk dapat geode.",
+    "data.item.frozen-geode.name": "Frozen Geode Node",
+    "data.item.frozen-geode.description": "Pecahkan untuk dapat frozen geodes.",
+    "data.item.magma-geode.name": "Magma Geode Node",
+    "data.item.magma-geode.description": "Pecahkan untuk dapat magma geodes.",
+
+    // weeds & crystals
+    "data.item.weed.name": "Weed",
+    "data.item.weed.description": "Rumput liar. Di dalamnya ada fiber atau mixed seeds.",
+    "data.item.fertile-weed.name": "Fertilized Weed",
+    "data.item.fertile-weed.description": "Jamunan dapat wild seeds.",
+    "data.item.ice-crystal.name": "Ice Crystal",
+    "data.item.ice-crystal.description": "Kristal Es biasa. Peluangnya sangat kecil berisi quartz.",
+
+    // mine gems
+    "data.item.amethyst-node.name": "Amethyst Cluster",
+    "data.item.amethyst-node.description": "Pecahkan untuk dapat amethysts.",
+    "data.item.aquamarine-node.name": "Aquamarine Node",
+    "data.item.aquamarine-node.description": "Pecahkan untuk dapat aquamarines.",
+    "data.item.diamond-node.name": "Diamond Node",
+    "data.item.diamond-node.description": "Pecahkan untuk dapat diamonds.",
+    "data.item.emerald-node.name": "Emerald Node",
+    "data.item.emerald-node.description": "Pecahkan untuk dapat emeralds.",
+    "data.item.gem-node.name": "Gem Node",
+    "data.item.gem-node.description": "Pecahkan untuk dapat emeralds, aquamarines, rubies, amethysts, topaz, jade, atau diamonds.",
+    "data.item.jade-node.name": "Jade Node",
+    "data.item.jade-node.description": "Pecahkan untuk dapat jade.",
+    "data.item.mystic-stone.name": "Mystic Stone",
+    "data.item.mystic-stone.description": "Pecahkan untuk dapat batuan langka dan Ore, termasuk Prismatic Shards.",
+    "data.item.prismatic-node.name": "Prismatic Node",
+    "data.item.prismatic-node.description": "Pecahkan untuk dapat prismatic shards.",
+    "data.item.ruby-node.name": "Ruby Node",
+    "data.item.ruby-node.description": "Pecahkan untuk dapat ruby.",
+    "data.item.topaz-node.name": "Topaz Node",
+    "data.item.topaz-node.description": "Pecahkan untuk dapat topaz.",
+
+    // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node",
+    "data.item.cinder-shard-node.description": "Pecahkan untuk dapat cinder shards.",
+    "data.item.copper-node.name": "Copper Node",
+    "data.item.copper-node.description": "Pecahkan untuk dapat copper ore.",
+    "data.item.gold-node.name": "Gold Node",
+    "data.item.gold-node.description": "Pecahkan untuk dapat gold ore.",
+    "data.item.iridium-node.name": "Iridium Node",
+    "data.item.iridium-node.description": "Pecahkan untuk dapat iridium ore.",
+    "data.item.iron-node.name": "Iron Node",
+    "data.item.iron-node.description": "Pecahkan untuk dapat iron ore.",
+    "data.item.omni-geode-node.name": "Omni Geode Node",
+    "data.item.omni-geode-node.description": "Pecahkan untuk dapat omni geode.",
+
+    // mine stones
+    "data.item.colored-stone.name": "Colored Stone",
+    "data.item.colored-stone.description": "Batu biasa. Bisa berisi stone, ores, atau geode.",
+    "data.item.mine-stone.name": "Stone",
+    "data.item.mine-stone.description": "Pecahkan untuk dapat stone dengan peluang coal.",
+
+    // other stones
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Pecahkan untuk dapat clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Pecahkan untuk dapat fossil and bone.",
+
+    // mine containers
+    "data.item.barrel.name": "Barrel",
+    "data.item.barrel.description": "Pecahkan untuk dapat berbagai item.",
+    "data.item.box.name": "Box",
+    "data.item.box.description": "Pecahkan untuk dapat berbagai item.",
+
+    // location names
+    "location.backwoods": "backwoods",
+    "location.beach": "pantai",
+    "location.beach.east-pier": "pantai (dermaga timur)",
+    "location.bugLand": "mutant bug lair",
+    "location.busStop": "halte bis",
+    "location.desert": "gurun",
+    "location.farm": "kebun",
+    "location.farmCave": "gua kebun",
+    "location.farmHouse": "rumah",
+    "location.forest": "hutan",
+    "location.forest.fish-area-0": "sungai hutan",
+    "location.forest.fish-area-1": "danau hutan",
+    "location.forest.island-tip": "sungai hutan (ujung utara pulau besar)",
+    "location.mountain": "gunung",
+    "location.railroad": "rel kereta",
+    "location.sewer": "selokan",
+    "location.submarine": "kapal selam Night Market",
+    "location.town": "kota",
+    "location.town.northmost-bridge": "kota (jembatan paling utara)",
+    "location.tunnel": "terowongan bis",
+    "location.undergroundMine": "tambang",
+    "location.undergroundMine.level": "tambang level {{level}}",
+    "location.witchSwamp": "witch's swamp",
+    "location.woods": "secret woods",
+
+    "location.caldera": "kaldera Ginger Island",
+    "location.islandEast": "Ginger Island timur",
+    "location.islandNorth": "Ginger Island utara",
+    "location.islandSouth": "Ginger Island selatan",
+    "location.islandSouthEast": "Ginger Island tenggara",
+    "location.islandSouthEastCave": "gua Ginger Island tenggara",
+    "location.islandWest": "Ginger Island barat",
+    "location.islandWest.fish-area-1": "Ginger Island barat (laut)",
+    "location.islandWest.fish-area-2": "Ginger Island barat (kolam)",
+
+    "location.unknown-fish-area": "{{locationName}} (fishing area {{id}})",
+
+
+    /*********
+    ** Animal lookups
+    *********/
+    // labels
+    "animal.love": "Sayang",
+    "animal.happiness": "Bahagia",
+    "animal.mood": "Mood hari ini",
+    "animal.complaints": "Keluhan",
+    "animal.produce-ready": "Produk siap",
+    "animal.growth": "Tumbuh",
+    "animal.sells-for": "Dijual seharga",
+
+    // values
+    "animal.complaints.hungry": "kemarin tidak diberi makan",
+    "animal.complaints.left-out": "semalam tidak dimasukkan kandang",
+    "animal.complaints.new-home": "pindah ke rumah baru",
+    "animal.complaints.no-heater": "tidak ada penghangat di musim dingin",
+    "animal.complaints.not-petted": "hari ini belum dibelai",
+    "animal.complaints.wild-animal-attack": "semalam diserang binatang liar",
+
+
+    /*********
+    ** Building > generic lookups
+    *********/
+    // labels
+    "building.animals": "Binatang",
+    "building.construction": "Bangunan",
+    "building.feed-trough": "Pakan melalui",
+    "building.horse": "Kuda",
+    "building.horse-location": "Lokasi kuda",
+    "building.owner": "Pemilik",
+    "building.slimes": "Slime",
+    "building.stored-hay": "Jerami tersimpan",
+    "building.upgrades": "Peningkatan",
+    "building.water-trough": "Tempat minum",
+
+    // values
+    "building.animals.summary": "{{count}} dari {{max}} hewan maks",
+    "building.construction.summary": "siap dalam {{date}}",
+    "building.feed-trough.automated": "otomatis",
+    "building.feed-trough.summary": "{{filled}} dari {{max}} kotak pakan diisi",
+    "building.horse-location.summary": "{{location}} ({{x}}, {{y}})",
+    "building.junimo-harvesting-enabled": "Panen diaktifkan",
+    "building.owner.none": "tak ada pemilik",
+    "building.output-processing": "Hasil proses",
+    "building.output-ready": "Siap dalam",
+    "building.slimes.summary": "{{count}} dari {{max}} slime maks",
+    "building.stored-hay.summary-one-silo": "{{hayCount}} jerami (kapasitas maks.: {{maxHay}})",
+    "building.stored-hay.summary-multiple-silos": "{{hayCount}} Hay dalam {{siloCount}} silo (kapasitas maks.: {{maxHay}})",
+    "building.upgrades.barn.0": "sampai 4 hewan, tambah Cow",
+    "building.upgrades.barn.1": "sampai 8 hewan, tambah kehamilan dan Goat",
+    "building.upgrades.barn.2": "sampai 12 hewan, tambah Autofeed, Pig, dan Sheep",
+    "building.upgrades.cabin.0": "kabin biasa",
+    "building.upgrades.cabin.1": "tambah dapur, boleh menikah",
+    "building.upgrades.cabin.2": "boleh punya anak",
+    "building.upgrades.coop.0": "sampai 4 hewan; tambah Chicken",
+    "building.upgrades.coop.1": "sampai 8 hewan; tambah inkubator, Dinosaur, dan Ducks",
+    "building.upgrades.coop.2": "sampai 12 hewan; tambah Autofeed dan Rabbit",
+    "building.water-trough.summary": "{{filled}} dari {{max}} air yang diisi",
+
+
+    /*********
+    ** Building > fish pond lookups
+    *********/
+    // labels
+    "building.fish-pond.population": "Populasi",
+    "building.fish-pond.drops": "Hasil",
+    "building.fish-pond.quests": "Tugas",
+
+    // values
+    "building.fish-pond.population.empty": "Tambah seekoor ikan untuk memulai kolam ini",
+    "building.fish-pond.population.next-spawn": "Ikan baru muncul {{relativeDate}}",
+    "building.fish-pond.drops.preface": "{{chance}}% peluang setiap hari untuk menghasilkan item pertama yang sesuai:",
+    "building.fish-pond.drops.min-fish": "Dengan {{count}} ikan:",
+    "building.fish-pond.quests.done": "{{count}} ikan",
+    "building.fish-pond.quests.incomplete-one": "{{count}} ikan: akan butuh {{itemName}}",
+    "building.fish-pond.quests.incomplete-random": "{{count}} ikan: akan butuh salah satu {{itemList}}",
+    "building.fish-pond.quests.available": "tersedia {{relativeDate}}",
+
+
+    /*********
+    ** Bush lookups
+    *********/
+    // labels
+    "bush.name.berry": "Berry Bush",
+    "bush.name.plain": "Plain Bush",
+    "bush.name.tea": "Tea Bush",
+    "bush.description.berry": "Semak ini berbuah salmonberry dan blackberry.",
+    "bush.description.plain": "Semak biasa ini tidak berbuah apa-apa.",
+    "bush.description.Tea": "Semak yang berbuah daun teh.",
+    "bush.date-planted": "Tanggal ditanam",
+    "bush.growth": "Pertumbuhan",
+    "bush.next-harvest": "Penen selanjutnya",
+
+    // values
+    "bush.growth.summary": "dewasa dalam {{date}}",
+    "bush.schedule.berry": "Peluang 20% berbuah Salmonberry di spring tanggal 15-18 dan Blackberry di fall tanggal 8-11.",
+    "bush.schedule.tea": "Berbuah daun teh setiap tanggal 22 di akhir musim (kecuali di winter kalau tidak diletakkan di greenhouse).",
+
+
+    /*********
+    ** Fruit tree lookups
+    *********/
+    // labels
+    "fruit-tree.complaints": "Keluhan",
+    "fruit-tree.name": "Pohon {{fruitName}}",
+    "fruit-tree.growth": "Pertumbuhan",
+    "fruit-tree.next-fruit": "Berbuah pada",
+    "fruit-tree.season": "Musim",
+    "fruit-tree.quality": "Kualitas",
+
+    // values
+    "fruit-tree.complaints.adjacent-objects": "tidak bisa tumbuh karena ada obyek di sekitarnya",
+    "fruit-tree.growth.summary": "dewasa dalam {{date}}",
+    "fruit-tree.next-fruit.max-fruit": "tidak akan berbuah lagi sebelum dipanen",
+    "fruit-tree.next-fruit.out-of-season": "bukan musimnya",
+    "fruit-tree.next-fruit.struck-by-lightning": "disambar petir! Pulih dalam {{count}} hari.",
+    "fruit-tree.next-fruit.too-young": "terlalu muda untuk berbuah",
+    "fruit-tree.quality.now": "saat ini {{quality}}",
+    "fruit-tree.quality.on-date": "{{quality}} dalam {{date}}",
+    "fruit-tree.quality.on-date-next-year": "{{quality}} pada {{date}} tahun depan",
+    "fruit-tree.season.summary": "{{season}} (atau kapan saja kalau di greenhouse)",
+
+
+    /*********
+    ** Crop lookups
+    *********/
+    // labels
+    "crop.summary": "Tanaman",
+    "crop.harvest": "Panen",
+    "crop.fertilized": "Dipupuk",
+    "crop.watered": "Disiram",
+
+    // values
+    "crop.summary.dead": "Tanaman ini mati.",
+    "crop.summary.drops-X": "menghasilkan {{count}}",
+    "crop.summary.drops-X-to-Y": "menghasilkan {{min}} sampai {{max}} ({{percent}}% peluang panen tambahan)",
+    "crop.summary.harvest-once": "panen setelah {{daysToFirstHarvest}} hari",
+    "crop.summary.harvest-multi": "panen setelah {{daysToFirstHarvest}} hari, lalu setiap {{daysToNextHarvests}} hari",
+    "crop.summary.seasons": "tumbuh di {{seasons}}",
+    "crop.summary.sells-for": "dijual seharga {{price}}",
+    "crop.harvest.too-late": "panen berikutnya sudah telat (tanggal {{date}})",
+
+
+    /*********
+    ** Item > generic lookups
+    *********/
+    // labels
+    "item.contents": "Konten",
+    "item.loves-this": "Favoritnya",
+    "item.likes-this": "Kesukaannya",
+    "item.neutral-about-this": "Biasa saja",
+    "item.dislikes-this": "Tidak suka",
+    "item.hates-this": "Benci",
+    "item.needed-for": "Dibutuhkan untuk",
+    "item.number-owned": "Dimiliki",
+    "item.number-cooked": "Dimasak",
+    "item.number-crafted": "Dirakit",
+    "item.recipes": "Resep",
+    "item.see-also": "Lihat juga",
+    "item.sells-for": "Dijual seharga",
+    "item.sells-to": "Dijual pada",
+    "item.can-be-dyed": "Bisa diwarnai",
+    "item.produces-dye": "Menghasilkan pewarna",
+
+    // values
+    "item.contents.placed": "{{name}} placed",
+    "item.contents.ready": "{{name}} ready",
+    "item.contents.partial": "{{name}} in {{time}}",
+    "item.undiscovered-gift-taste": "{{count}} unrevealed villagers",
+    "item.undiscovered-gift-taste-appended": ", and {{count}} unrevealed villagers",
+    "item.needed-for.community-center": "community center ({{bundles}})",
+    "item.needed-for.full-shipment": "full shipment achievement (ship one)",
+    "item.needed-for.polyculture": "polyculture achievement (ship {{count}} more)",
+    "item.needed-for.full-collection": "full collection achievement (donate one to museum)",
+    "item.needed-for.gourmet-chef": "gourmet chef achievement (cook {{recipes}})",
+    "item.needed-for.craft-master": "craft master achievement (make {{recipes}})",
+    "item.sells-to.shipping-box": "shipping box",
+    "item.recipes-for-ingredient.entry": "{{name}} (needs {{count}})",
+    "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.number-owned.summary": "you own {{count}} of these",
+    "item.number-crafted.summary": "you made {{count}} of these",
+
+
+    /*********
+    ** Item > cask lookups
+    *********/
+    // labels
+    "item.cask-contents": "Contents",
+    "item.cask-schedule": "Aging",
+
+    // values
+    "item.cask-schedule.now": "{{quality}} ready now",
+    "item.cask-schedule.now-partial": "{{quality}} now (use pickaxe to stop aging)",
+    "item.cask-schedule.tomorrow": "{{quality}} tomorrow",
+    "item.cask-schedule.in-x-days": "{{quality}} in {{count}} days ({{date}})",
+
+
+    /*********
+    ** Item > crab pot lookups
+    *********/
+    // labels
+    "item.crabpot-bait": "Bait",
+    "item.crabpot-bait-needed": "Needs bait!",
+    "item.crabpot-bait-not-needed": "Not needed due to Luremaster profession.",
+
+
+    /*********
+    ** Item > fence lookups
+    *********/
+    // labels
+    "item.fence-health": "Health",
+
+    // values
+    "item.fence-health.gold-clock": "no decay with Gold Clock",
+    "item.fence-health.summary": "{{percent}}% (roughly {{count}} days left)",
+
+
+    /*********
+    ** Item > fish lookups
+    *********/
+    // labels
+    "item.fish-pond-drops": "Fish pond drops",
+    "item.fish-spawn-rules": "Spawn rules",
+
+    // values
+    "item.fish-spawn-rules.min-fishing-level": "min fishing level: {{level}}",
+    "item.fish-spawn-rules.not-caught-yet": "not caught yet (can only be caught once)",
+    "item.fish-spawn-rules.locations": "locations: {{locations}}",
+    "item.fish-spawn-rules.locations-by-season.label": "locations:",
+    "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
+    "item.fish-spawn-rules.season-any": "any season",
+    "item.fish-spawn-rules.season-list": "seasons: {{seasons}}",
+    "item.fish-spawn-rules.time": "time of day: {{times}}",
+    "item.fish-spawn-rules.weather-sunny": "weather: sunny",
+    "item.fish-spawn-rules.weather-rainy": "weather: raining",
+
+
+    /*********
+    ** Item > movie lookups
+    *********/
+    // labels
+    "item.movie-snack-preference": "Preference",
+    "item.movie-ticket.movie-this-week": "Movie this week",
+    "item.movie-ticket.loves-movie": "Loves movie",
+    "item.movie-ticket.likes-movie": "Likes movie",
+    "item.movie-ticket.dislikes-movie": "Dislikes movie",
+
+    // values
+    "item.movie-snack-preference.love": "{{name}} loves this",
+    "item.movie-snack-preference.like": "{{name}} likes this",
+    "item.movie-snack-preference.dislike": "{{name}} dislikes this",
+    "item.movie-ticket.movie-this-week.none": "No movie this week",
+
+
+    /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    "item.music-block.pitch": "Pitch",
+    "item.music-block.drum-type": "Drum type",
+
+
+    /*********
+    ** Monster lookups
+    *********/
+    // labels
+    "monster.invincible": "Invincible",
+    "monster.health": "Health",
+    "monster.drops": "Drops",
+    "monster.experience": "XP",
+    "monster.defense": "Defense",
+    "monster.attack": "Attack",
+    "monster.adventure-guild": "Adventure Guild",
+
+    // values
+    "monster.drops.nothing": "nothing",
+    "monster.adventure-guild.eradication-goal": "eradication goal: {{name}} (killed {{count}} of {{requiredCount}})",
+
+
+    /*********
+    ** NPC > generic lookups
+    *********/
+    // labels
+    "npc.birthday": "Birthday",
+    "npc.can-romance": "Can romance",
+    "npc.friendship": "Friendship",
+    "npc.talked-today": "Talked today",
+    "npc.gifted-today": "Gifted today",
+    "npc.gifted-this-week": "Gifted this week",
+    "npc.kissed-today": "Kissed today",
+    "npc.hugged-today": "Hugged today",
+    "npc.loves-gifts": "Loves gifts",
+    "npc.likes-gifts": "Likes gifts",
+    "npc.neutral-gifts": "Neutral gifts",
+    "npc.dislikes-gifts": "Dislikes gifts",
+    "npc.hates-gifts": "Hates gifts",
+
+    // values
+    "npc.can-romance.married": "You're married! <", // < turns into a heart
+    "npc.can-romance.housemate": "You're housemates!",
+    "npc.friendship.not-met": "You haven't met them yet.",
+    "npc.friendship.need-bouquet": "need bouquet for next",
+    "npc.friendship.need-points": "next in {{count}} pts",
+    "npc.undiscovered-gift-taste": "{{count}} unrevealed items",
+    "npc.undiscovered-gift-taste-appended": ", and {{count}} unrevealed items",
+
+
+    /*********
+    ** NPC > child lookups
+    *********/
+    // labels
+    "npc.child.age": "Age",
+
+    // values
+    "npc.child.age.description-partial": "{{label}} ({{count}} days to {{nextLabel}})",
+    "npc.child.age.description-grown": "{{label}}",
+    "npc.child.age.newborn": "newborn",
+    "npc.child.age.baby": "baby",
+    "npc.child.age.crawler": "crawler",
+    "npc.child.age.toddler": "toddler",
+
+
+    /*********
+    ** Pet lookups
+    *********/
+    // labels
+    "pet.love": "Love",
+    "pet.petted-today": "Petted today",
+    "pet.last-petted": "Last petted",
+    "pet.water-bowl": "Water bowl",
+
+    // values
+    "pet.last-petted.yes": "yes (+12 love)",
+    "pet.last-petted.days-ago": "{{days}} days ago",
+    "pet.last-petted.never": "never",
+    "pet.water-bowl.empty": "empty",
+    "pet.water-bowl.filled": "filled (+6 love)",
+
+
+    /*********
+    ** Player lookups
+    *********/
+    // labels
+    "player.farm-name": "Farm name",
+    "player.farm-map": "Farm map",
+    "player.favorite-thing": "Favorite thing",
+    "player.gender": "Gender",
+    "player.housemate": "Housemate",
+    "player.spouse": "Spouse",
+    "player.watched-movie-this-week": "Watched movie this week",
+    "player.combat-skill": "Combat",
+    "player.farming-skill": "Farming",
+    "player.fishing-skill": "Fishing",
+    "player.foraging-skill": "Foraging",
+    "player.mining-skill": "Mining",
+    "player.luck": "Luck",
+    "player.save-format": "Save format",
+
+    // values
+    "player.farm-map.custom": "Custom",
+    "player.gender.male": "male",
+    "player.gender.female": "female",
+    "player.luck.summary": "{{percent}}% to many random checks",
+    "player.skill.progress": "level {{level}} ({{expNeeded}} XP to next)",
+    "player.skill.progress-last": "level {{level}}",
+
+
+    /*********
+    ** Puzzles
+    *********/
+    // labels
+    "puzzle.solution": "Solution",
+
+    // values
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+
+    // values
+    "puzzle.island-shrine.solution": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
+    ** Tile lookups
+    *********/
+    // labels
+    "tile.description": "A tile position on the map. This is displayed because you enabled tile lookups in the configuration.",
+    "tile.game-location": "Location",
+    "tile.map-name": "Map name",
+    "tile.tile": "Tile",
+    "tile.tile-index": "{{layerName}}: tile index",
+    "tile.tilesheet": "{{layerName}}: tilesheet",
+    "tile.blend-mode": "{{layerName}}: blend mode",
+    "tile.index-property": "{{layerName}}: ix props: {{propertyName}}",
+    "tile.tile-property": "{{layerName}}: props: {{propertyName}}",
+
+    // values
+    "tile.tile.none-here": "no tile here",
+
+
+    /*********
+    ** Trash Bear or Gourmand lookups
+    *********/
+    // labels
+    "trash-bear-or-gourmand.item-wanted": "Item wanted",
+    "trash-bear-or-gourmand.quest-progress": "Quest progress",
+
+
+    /*********
+    ** Wild tree lookups
+    *********/
+    // labels
+    "tree.stage": "Growth stage",
+    "tree.next-growth": "Next growth",
+    "tree.has-seed": "Has seed",
+    "tree.is-fertilized": "Is fertilized",
+
+    // values
+    "tree.name.big-mushroom": "Big Mushroom",
+    "tree.name.mahogany": "Mahogany Tree",
+    "tree.name.maple": "Maple Tree",
+    "tree.name.oak": "Oak Tree",
+    "tree.name.palm": "Palm Tree",
+    "tree.name.pine": "Pine Tree",
+    "tree.name.unknown": "Unknown Tree",
+    "tree.stage.done": "Fully grown",
+    "tree.stage.partial": "{{stageName}} ({{step}} of {{max}})",
+    "tree.next-growth.winter": "can't grow in winter outside greenhouse",
+    "tree.next-growth.adjacent-trees": "can't grow because other trees are too close",
+    "tree.next-growth.chance": "{{chance}}% chance to grow into {{stage}} tomorrow",
+
+    // growth stages
+    "tree.stages.seed": "seed",
+    "tree.stages.sprout": "sprout",
+    "tree.stages.sapling": "sapling",
+    "tree.stages.bush": "bush",
+    "tree.stages.smallTree": "small tree",
+    "tree.stages.tree": "tree"
+}
