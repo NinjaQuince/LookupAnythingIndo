@@ -7,9 +7,6 @@
     "generic.tomorrow": "besok",
     "generic.yesterday": "kemarin",
 
-    // generic values
-    "generic.unknown": "tak diketahui",
-
     // generic field values
     "generic.percent": "{{percent}}%",
     "generic.percent-chance-of": "{{label}}, peluangnya {{percent}}%",
@@ -72,7 +69,6 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robin",
-    "shop.volcano": "toko gunung berapi",
     "shop.willy": "Willy",
 
     // recipe types
@@ -84,7 +80,7 @@
     "data.npc.pet.description": "Peliharaan setiamu.",
     "data.npc.horse.description": "Tunggangan setiamu.",
     "data.npc.junimo.description": "Roh hutan yang berasal dari dunia roh. Tak banyak yang diketahui dari mereka.",
-    "data.npc.trash-bear.description": "Roh ramah yang membersihkan sampah.",
+    "data.npc.trashbear.description": "Roh ramah yang membersihkan sampah.",
 
     // item types
     "data.type.debris": "Debris",
@@ -135,8 +131,6 @@
     "data.item.topaz-node.description": "Pecahkan utk mendapat topaz.",
 
     // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node",
-    "data.item.cinder-shard-node.description": "Pecahkan utk mendapat cinder shard.",
     "data.item.copper-node.name": "Copper Node",
     "data.item.copper-node.description": "Pecahkan utk mendapat copper ore.",
     "data.item.gold-node.name": "Gold Node",
@@ -145,14 +139,12 @@
     "data.item.iridium-node.description": "Pecahkan utk mendapat iridium ore.",
     "data.item.iron-node.name": "Iron Node",
     "data.item.iron-node.description": "Pecahkan utk mendapat iron ore.",
-    "data.item.omni-geode-node.name": "Omni Geode Node",
-    "data.item.omni-geode-node.description": "Pecahkan utk mendapat omni geode.",
 
     // mine stones
     "data.item.colored-stone.name": "Batu Berwarna",
     "data.item.colored-stone.description": "Batu yg kurang menarik. Kadang berisi batu, bijih logam, atau geode.",
     "data.item.mine-stone.name": "Stone",
-    "data.item.mine-stone.description": "Pecahkan utk mendapat batu dg peluang mendapat coal.",
+    "data.item.mine-stone.description": "Pecahkan utk mendapat batu.",
 
     // other stones
     "data.item.clay-stone.name": "Clay Stone",
@@ -191,17 +183,6 @@
     "location.undergroundMine.level": "tambang level {{level}}",
     "location.witchSwamp": "witch's swamp",
     "location.woods": "secret woods",
-
-    "location.caldera": "kaldera Ginger Island",
-    "location.islandEast": "Ginger Island timur",
-    "location.islandNorth": "Ginger Island utara",
-    "location.islandSouth": "Ginger Island selatan",
-    "location.islandSouthEast": "Ginger Island tenggara",
-    "location.islandSouthEastCave": "gua Ginger Island tenggara",
-    "location.islandWest": "Ginger Island barat",
-    "location.islandWest.fish-area-1": "Ginger Island barat (laut)",
-    "location.islandWest.fish-area-2": "Ginger Island barat (kolam)",
-
     "location.unknown-fish-area": "{{locationName}} (area memancing {{id}})",
 
 
@@ -335,8 +316,6 @@
     // labels
     "crop.summary": "Rincian",
     "crop.harvest": "Panen lagi",
-    "crop.fertilized": "Dipupuk",
-    "crop.watered": "Sudah disiram",
 
     // values
     "crop.summary.dead": "Tanaman ini sudah layu.",
@@ -382,7 +361,6 @@
     "item.needed-for.full-collection": "pencapaian Full Collection (donasikan satu ke museum)",
     "item.needed-for.gourmet-chef": "pencapaian Gourmet Chef (masak {{recipes}})",
     "item.needed-for.craft-master": "pencapaian Craft Master (buat {{recipes}})",
-    "item.needed-for.quests": "quest sekarang ({{quests}})",
     "item.sells-to.shipping-box": "shipping bin",
     "item.recipes-for-ingredient.entry": "{{name}} (butuh {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -575,57 +553,10 @@
 
 
     /*********
-    ** Puzzles
-    *********/
-    // labels
-    "puzzle.solution": "Solusi",
-
-    // values
-    "puzzle.solution.solved": "Puzzle dipecahkan!",
-    "puzzle.solution.hidden": "Solusi Puzzle disembunyikan dalam 'progression mode'.",
-
-
-    /*********
-    ** Puzzles > Fern Islands crystal cave
-    *********/
-    // labels
-    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
-    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
-
-    // values
-    "puzzle.island-crystal-cave.solution.not-activated": "Aktifkan patung utk memulai puzzle.",
-    "puzzle.island-crystal-cave.solution.waiting": "Menunggu gim utk memproses urutan...",
-    "puzzle.island-crystal-cave.solution.activated": "Ulangi pola kristal yang diaktifkan:",
-
-
-    /*********
-    ** Puzzles > Fern Islands mermaid puzzle
-    *********/
-    // labels
-    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
-    "puzzle.island-mermaid.solution.intro": "Pakai flute block untuk memutar lagu duyung Night Market. Nilai nada (kamu bisa lookup sebuah flute block utk lihat nadanya):",
-
-
-    /*********
-    ** Puzzles > Fern Islands shrine puzzle
-    *********/
-    // labels
-    "puzzle.island-shrine.title": "Island Shrine Puzzle",
-
-    // values
-    "puzzle.island-shrine.solution": "Untuk setiap tumpuan, tempatkan item yang dijatuhkan oleh burung permata di lokasi pulau yang sesuai saat hujan. Item diacak untuk setiap file save.",
-    "puzzle.island-shrine.solution.east": "Timur: {{item}}",
-    "puzzle.island-shrine.solution.north": "Utara: {{item}}",
-    "puzzle.island-shrine.solution.south": "Selatan: {{item}}",
-    "puzzle.island-shrine.solution.west": "Barat: {{item}}",
-
-
-    /*********
     ** Tile lookups
     *********/
     // labels
     "tile.description": "Posisi tile di peta. Ini muncuk karena kamu mengaktifkan 'tile lookups' di konfigurasi.",
-    "tile.game-location": "Lokasi",
     "tile.map-name": "Nama peta",
     "tile.tile": "Tile",
     "tile.tile-index": "{{layerName}}: index tile",
@@ -639,11 +570,11 @@
 
 
     /*********
-    ** Trash Bear or Gourmand lookups
+    ** Trash bear lookups
     *********/
     // labels
-    "trash-bear-or-gourmand.item-wanted": "Item diinginkan",
-    "trash-bear-or-gourmand.quest-progress": "Progres tugas",
+    "trash-bear.item-wanted": "Item diinginkan",
+    "trash-bear.quest-progress": "Progres tugas",
 
 
     /*********
@@ -657,7 +588,6 @@
 
     // values
     "tree.name.big-mushroom": "Big Mushroom",
-    "tree.name.mahogany": "Mahogany Tree",
     "tree.name.maple": "Maple Tree",
     "tree.name.oak": "Oak Tree",
     "tree.name.palm": "Palm Tree",
@@ -665,9 +595,10 @@
     "tree.name.unknown": "Unknown Tree",
     "tree.stage.done": "Sudah dewasa",
     "tree.stage.partial": "{{stageName}} ({{step}} dari {{max}})",
-    "tree.next-growth.winter": "tak dapat tumbuh saat winter di luar greenhouse, kecuali dipupuk",
+    "tree.next-growth.winter": "tak dapat tumbuh saat winter di luar greenhouse",
     "tree.next-growth.adjacent-trees": "tak dapat tumbuh karena pohon lain terlalu dekat",
     "tree.next-growth.chance": "{{chance}}% peluang tumbuh jadi {{stage}} besok",
+    "tree.is-fertilized.effects": "terjamin tumbuh setiap hari, meski saat winter",
 
     // growth stages
     "tree.stages.seed": "bibit",

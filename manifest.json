@@ -1,0 +1,10 @@
+﻿{
+    "Name": "Lookup Anything Bahasa Indonesia",
+    "Author": "Pathoschild, diterjemahkan oleh NinjaQuince",
+    "Version": "1.34.3",
+    "MinimumApiVersion": "3.9.5",
+    "Description": "Lihat berbagai metadata hanya dengan sentuhan tombol.",
+    "UniqueID": "Pathoschild.LookupAnything",
+    "EntryDll": "LookupAnything.dll",
+    "UpdateKeys": [ "Nexus:9143" ]
+}
